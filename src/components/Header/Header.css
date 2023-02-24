@@ -1,0 +1,32 @@
+.header {
+  width: 100%;
+  min-width: 420px;
+  background-color: whitesmoke;
+  z-index: 1;
+}
+.header_container {
+  display: flex;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+}
+.header_logo {
+  width: 50%;
+  text-align: left;
+}
+.header_nav ul {
+  display: flex;
+}
+.header_nav ul li {
+  padding: 15px;
+  list-style: none;
+}
+ul li {
+  text-decoration: none;
+  color: black;
+}
+.head_nav ul li a:hover {
+  text-decoration: underline;
+  color: yellow;
+}
